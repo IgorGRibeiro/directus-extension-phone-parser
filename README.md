@@ -2,7 +2,7 @@
 
 A Directus Flow operation that parses and validates international phone numbers. Uses [libphonenumber-js](https://www.npmjs.com/package/libphonenumber-js) to extract country code, country, and national number from any E.164-formatted phone number.
 
-![Demo GIF](https://raw.githubusercontent.com/IgorGRibeiro/directus-extension-phone-parser/master/images/extension_demo.gif)
+![Extension demo GIF](https://raw.githubusercontent.com/IgorGRibeiro/directus-extension-phone-parser/master/images/extension_demo.gif)
 
 ## Features
 
