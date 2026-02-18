@@ -5,7 +5,9 @@ export default {
   description:
     "Parses a phone number and returns country code, country and national number",
 
-  overview: ({ phone }) => [{ label: "Phone", value: phone ?? "not set" }],
+  overview: ({ phone }) => [
+    { label: "Phone number", value: phone ?? "not set" },
+  ],
 
   options: [
     {
