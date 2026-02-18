@@ -19,6 +19,7 @@ export default {
       const parsed = parsePhoneNumberWithError(phone);
 
       return {
+        success: true,
         input: phone,
         country: parsed.country,
         countryCode: `+${parsed.countryCallingCode}`,
