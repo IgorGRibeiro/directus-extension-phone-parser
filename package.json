@@ -1,0 +1,54 @@
+{
+  "name": "@ribertec/directus-extension-phone-parser",
+  "description": "Parse and validate international phone numbers in Directus Flows using libphonenumber-js",
+  "icon": "phone",
+  "version": "1.0.2",
+  "license": "MIT",
+  "author": "@ribertec",
+  "keywords": [
+    "directus",
+    "directus-extension",
+    "directus-extension-operation",
+    "phone",
+    "phone-number",
+    "phone-parser",
+    "validation",
+    "libphonenumber",
+    "international"
+  ],
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "directus:extension": {
+    "type": "operation",
+    "path": {
+      "app": "dist/app.js",
+      "api": "dist/api.js"
+    },
+    "source": {
+      "app": "src/app.js",
+      "api": "src/api.js"
+    },
+    "host": "^10.10.0",
+    "sandbox": {
+      "enabled": true,
+      "requestedScopes": {
+        "log": {}
+      }
+    }
+  },
+  "scripts": {
+    "build": "directus-extension build",
+    "dev": "directus-extension build -w --no-minify",
+    "link": "directus-extension link",
+    "validate": "directus-extension validate"
+  },
+  "devDependencies": {
+    "@directus/extensions-sdk": "17.0.9",
+    "vue": "^3.5.28"
+  },
+  "dependencies": {
+    "libphonenumber-js": "^1.12.37"
+  }
+}
