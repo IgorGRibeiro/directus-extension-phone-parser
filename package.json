@@ -5,6 +5,10 @@
   "version": "1.0.2",
   "license": "MIT",
   "author": "@ribertec",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IgorGRibeiro/directus-extension-phone-parser"
+  },
   "keywords": [
     "directus",
     "directus-extension",
