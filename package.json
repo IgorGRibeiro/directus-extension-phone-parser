@@ -2,7 +2,7 @@
   "name": "@ribertec/directus-extension-phone-parser",
   "description": "Parse and validate international phone numbers in Directus Flows using libphonenumber-js",
   "icon": "phone",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "@ribertec",
   "repository": {
